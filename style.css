@@ -9,6 +9,7 @@
 
 
 * {
+    background-color: #020408;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -64,19 +65,19 @@ body {
     justify-content: center;
 }
 
-img {
+img, iframe{
     width: 100%;
 }
 
 .title h1 {
     font-size: 3rem;
-    color: #2e2e3f;
+    color: #F1F1F1;
 }
 
 .details p {
     margin-top: 0.8rem;
     font-size: 1.2rem;
-    color: #2e2e3f;
+    color: #F1F1F1;
 }
 
 .buttons {
@@ -98,11 +99,11 @@ img {
     font-size: 1.2rem;
     margin-right: 1rem;
     padding: 0.8rem 2.4rem;
-    background: #ff2400;
+    background: #00BDED;
     border-radius: 2rem;
 }
 
-/*cor do botao whatsapp */
+
 .buttons w {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
@@ -116,7 +117,7 @@ img {
     border-radius: 2rem;;
 }
 
-/*cor do botao instagram */
+
 .buttons i {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
@@ -148,7 +149,7 @@ img {
     height: auto;
     width: 100%;
     z-index: 999;
-    background: #fff;
+    background: #020408;
     border-bottom: 1px solid #ddd;
 }
 
@@ -166,7 +167,7 @@ img {
 }
 
 .navbar .logo a {
-    color: #41435a;
+    color: #F1F1F1;
     font-size: 1.7rem;
     font-weight: 700;
     text-decoration: none;
@@ -193,7 +194,7 @@ img {
 }
 
 .menu-items li a {
-    color: #39395c;
+    color: #F1F1F1;
     font-size: 1.2rem;
     font-weight: 500;
     text-decoration: none;
@@ -203,7 +204,7 @@ img {
 }
 
 .menu-items li w {
-    color: #39395c;
+    color: #F1F1F1;
     font-size: 1.2rem;
     font-weight: 500;
     text-decoration: none;
@@ -213,7 +214,7 @@ img {
 }
 
 .menu-items li i {
-    color: #39395c;
+    color: #F1F1F1;
     font-size: 1.2rem;
     font-weight: 500;
     text-decoration: none;
@@ -224,7 +225,7 @@ img {
 
 
 .menu-items li a:hover {
-    color: #ff0000;
+    color: #00BDED;
 }
 
 .menu-items li w:hover {
@@ -239,10 +240,10 @@ img {
 }
 
 .menu-items .explore-btn a {
-    color: #f30000;
+    color: #00BDED;
     font-size: 1.1rem;
     padding: 0.2rem 1.2rem;
-    border: 1px solid #f30000;
+    border: 1px solid #00BDED;
     border-radius: 2rem;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -251,7 +252,7 @@ img {
 
 .menu-items .explore-btn:hover a {
     color: #fff;
-    background: #f30000;
+    background: #00BDED;
 }
 
 .nav-toggler {
@@ -370,7 +371,7 @@ img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    background: #f16d00;
+    background: #00BDED;
     border-radius: 0.2rem;
     text-decoration: none;
     -webkit-transition: all 0.4s ease;
@@ -398,7 +399,7 @@ footer {
 }
 
 footer p {
-    color: #2e2e3f;
+    color: #F1F1F1;
     font-size: 1.1rem;
     font-weight: 500;
     text-align: center;
@@ -407,7 +408,7 @@ footer p {
 
 footer p a {
     text-decoration: none;
-    color: #f16d00;
+    color: #00BDED;
 }
 
 footer p i {

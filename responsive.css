@@ -17,28 +17,8 @@
         padding-right: 1.8rem;
     }
 
-    #laranja {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-    }
 
-    #ovos {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-
-    #cocos {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-    }
-
-    #abacaxi {
+    #duvidas {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -52,7 +32,7 @@
         flex-direction: column-reverse;
     }
 
-    .image-side img {
+    .image-side img iframe {
         padding-top: 2rem;
     }
 
@@ -77,7 +57,7 @@
 
     .header {
         position: fixed;
-        background: #fff;
+        background: #020408;
         min-height: 5rem;
     }
 
@@ -107,7 +87,7 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        background: #fff;
+        background: #020408;
         border-top: 1px solid #eee;
         box-shadow: 0 1rem 2rem -2rem gray;
         -webkit-transition: all 0.4s ease;
